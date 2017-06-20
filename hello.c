@@ -1,5 +1,5 @@
  #include <stdio.h>
- main()
+ int main(void)
  {
  int c;
  printf("hello, world\n");
@@ -7,7 +7,7 @@
  while ((c = getchar()) != EOF) {
 	 if (c == '\n') {
 	 	putchar('\n');
-	 	break;
+	 	return 0;
 	 }
 	 if (c == 'a') {
 	 	putchar('O');
