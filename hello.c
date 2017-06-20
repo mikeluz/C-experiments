@@ -7,6 +7,7 @@
  while ((c = getchar()) != EOF) {
 	 if (c == '\n') {
 	 	putchar('\n');
+	 	puts("Done.");
 	 	return 0;
 	 }
 	 if (c == 'a') {

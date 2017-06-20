@@ -9,7 +9,8 @@
  for (i = 0; i < 10; ++i)
  	ndigit[i] = 0;
 
- while ((c = getchar()) != EOF)
+ // '\n' instead of EOF for test console logging purposes
+ while ((c = getchar()) != '\n')
  
  	if (c >= '0' && c <= '9')
  	 	++ndigit[c-'0'];
@@ -17,7 +18,7 @@
  		++nwhite;
  	else
  		++nother;
- 
+
  printf("digits =");
  
  	for (i = 0; i < 10; ++i)
