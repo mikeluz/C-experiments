@@ -27,7 +27,7 @@ int main(void) {
 }
 
 void printArray(char dataName[], int dataSet[], int dataLength){
-	for(int i=0; i<NUMBER_OF_CLASSROOMS; i++){
+	for(int i=0; i<dataLength; i++){
 		printf("%s[%d]: %d\n",dataName, i,dataSet[i]);
 	}
 }
