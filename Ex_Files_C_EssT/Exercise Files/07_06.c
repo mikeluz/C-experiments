@@ -8,6 +8,9 @@
  ============================================================================
  */
 
+// to run this program, you must use command: cc 07_06.c transactions.c
+// that is -- you must compile the main as well as the .c library -- including the .h file in main as here LINKS them
+
 #include "transactions.h"
 
 int main(void) {
